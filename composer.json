@@ -1,0 +1,63 @@
+{
+    "name": "jeroenvanderlaan/regexp",
+    "description": "Simple object oriented regexp facade",
+    "type": "library",
+    "keywords": ["regex", "regexp", "wrapper", "facade", "oop"],
+    "homepage": "https://github.com/JeroenVanDerLaan/regexp",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+
+    "authors": [
+        {
+            "name": "Jeroen van der Laan",
+            "email": "jeroenvanderlaan91@gmail.com",
+            "homepage": "https://github.com/JeroenVanDerLaan",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+
+    "suggest": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Jeroenvanderlaan\\Regexp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jeroenvanderlaan\\Regexp\\Tests\\": "tests/",
+            "Jeroenvanderlaan\\Regexp\\Tests\\Unit\\": "tests/unit"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/JeroenVanDerLaan/regexp"
+        }
+    ],
+
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+
+    "scripts": {
+    },
+
+    "extra": {
+    },
+
+    "bin": [
+    ]
+}
