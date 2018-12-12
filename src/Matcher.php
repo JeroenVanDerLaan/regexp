@@ -61,6 +61,9 @@ class Matcher
             foreach ($all as $groupMatches) {
                 $groupMatch = $groupMatches[$index];
                 list($needle, $offset) = $groupMatch;
+                if (is_null($needle) || is_null($offset)) {
+                    continue;
+                }
                 $groups[] = new Match($subject, $needle, $regexp, $offset);
             }
             list($needle, $offset) = $fullMatch;
